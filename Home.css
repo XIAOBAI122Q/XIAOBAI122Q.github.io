@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: .3s ease-in-out;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    transition: all .7s ease-out .3s;
+}
+body:has(button:hover){
+    background-color: #555555;
+    color: #555555;
+}
+
+.hello{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 100px;
+    color: #000000;
+}
+
+.tit1{
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    color: #070707;
+}
+
+.tit2{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 50px;
+    color: #070707;
+}
+
+.tit2 p{
+    font-size: 1.3rem;
+    margin-top: 20px;
+    color: #282828;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.button button{
+    color: white;
+    font-size: .7rem;
+    margin: 10px;
+    width: 105px;
+    height: 40px;
+    border-radius: 7px;
+    border-style: none;
+    background-color: rgb(98, 124, 255);
+}
+.button button:hover{
+    background-color: rgb(35, 75, 207);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#b5:hover{
+    filter: blur(2px);
+    background-color: rgb(230, 0, 0);
+}
+
+.end{
+    position: fixed;
+    bottom: 20px;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    color: #6e6e6e;
+}
+.end #days{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    color :#5596ae;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    
+}
